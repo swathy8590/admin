@@ -1,0 +1,213 @@
+
+
+
+ :root{
+    --body-color:#e7ebf7;
+    --question-box:#d5e1fa;
+    --total-exam:#E8F7FF;
+    --exam-attent:#FDEDE8;
+    --primary-color:#ffffff; 
+    --gray:#ECF2FF;
+    --presantage-color:#606BF7;
+    --text-color:#424243;
+}
+
+@font-face {
+  font-family: "plus-sans";
+  src: url(../font/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "plus-sans-medium";
+  src: url(../font/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "plus-semi-bold";
+  src: url(../font/PlusJakartaSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "plus-extra-bold";
+  src: url(../font/PlusJakartaSans-ExtraBold.ttf);
+}
+
+
+body{
+  font-family: "plus-sans";
+}
+
+.bodysection{
+    background:var(--body-color) ;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0px;
+    min-height: 100vh;
+    background-color: #bcb9f1;
+  }
+
+
+  .navigationn{
+    background:var(--primary-color) !important;
+  }
+
+
+  .logo{
+    width:80px;
+    height: 50px;
+    border: 1px solid black;
+  }
+  
+  .side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background: var(--primary-color);
+    transition: 0.5s;
+    z-index: 999;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  
+  .active-nav {
+    margin-left: 0px;
+  }
+  
+  
+  .active-cont {
+    margin-left: 250px;
+  }
+
+  
+  #menu-btn {
+    padding: 10px;
+    color:var(--primary-color);
+    margin-left: -52px;
+  }
+
+  .suboption{
+    font-size:15px;
+  }
+  
+  .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  }
+
+
+  .navigation{
+    width: 100%;
+  }
+
+
+
+
+  #sidebarr {
+    overflow: hidden;
+    z-index: 3;
+    
+}
+
+
+
+
+#sidebars{
+    width:100%;
+}
+
+.options{
+  width:100%;
+  color:var( --text-color)
+
+}
+
+
+.navigation-menu{
+  list-style: none;
+}
+
+
+.navigation-menu li{
+  margin-left: 20px;
+}
+
+
+.user{
+  width:40px;
+  height: 40px;
+  border-radius: 30px;
+  background-image: url(../images/girl.jpg);
+  background-size: cover;
+ 
+}
+
+.notification{
+  width:25px;
+  height: 25px;
+  border-radius: 30px;
+
+}
+
+
+.options{
+  font-family: "plus-semi-bold";
+}
+
+
+
+.numbers{
+  font-family: "plus-extra-bold";
+
+}
+
+.number-head{
+  font-family: "plus-sans-medium";
+
+}
+
+
+
+
+.mainmargin{
+  width: calc(100% - 250px) !important;
+  transition:1s all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
