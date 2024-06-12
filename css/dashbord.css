@@ -1,0 +1,176 @@
+
+
+
+ :root{
+    --body-color:#F6F8FE;
+    --question-box:#d5e1fa;
+    --total-exam:#E8F7FF;
+    --exam-attent:#FDEDE8;
+    --primary-color:#ffffff; 
+    --gray:#ECF2FF;
+    --presantage-color:#606BF7;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.bodysection{
+    background:var(--body-color) ;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #bcb9f1;
+  }
+  
+  .side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background: var(--primary-color);
+    transition: 0.5s;
+    z-index: 999;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  .my-container {
+    transition: 0.4s;
+  }
+  
+  .active-nav {
+    margin-left: 0px;
+  }
+  
+  
+  .active-cont {
+    margin-left: 250px;
+  }
+
+  
+  #menu-btn {
+    padding: 10px;
+    background-color: #000000;
+    color:var(--primary-color);
+    margin-left: -52px;
+  }
+  
+  .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  }
+
+
+  .navigation{
+    width: 100%;
+  }
+
+
+
+
+  #sidebarr {
+    overflow: hidden;
+    z-index: 3;
+    width: 100%;
+    color: #424243;
+}
+
+#sidebarr i {
+    margin-right: 6px;
+  
+}
+
+
+#sidebars{
+    width:100%;
+}
+
+#sidebars i {
+    margin-right: 6px;
+}
+
+
+#sidebarc i {
+    margin-right: 6px;
+}
+
+.options{
+  color: #b6b2b2;
+}
+
+
+
+.dashbox{
+  height: 180px;
+  background-color:var(--question-box);
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px #b6b2b2;
+  text-align: center;
+}
+
+.e-total{
+  background-color:var(--total-exam);
+}
+
+
+.e-attent{
+  background-color:var(--exam-attent);
+}
+
+
+
+.presantage-box{
+  height: 180px;
+  background-color:var(--body-color);
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px #b6b2b2;
+  
+
+}
+
+
+
+.bar-chart{
+  background-color: var(--primary-color);
+  height: 350px;
+  border-radius: 10px;
+
+}
+
+
+
+.line-chart{
+  background-color: var(--primary-color);
+  height: 350px;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
