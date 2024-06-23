@@ -2,7 +2,7 @@
 
 
  :root{
-    --body-color:#e7ebf7;
+    --body-color:#e4e9f9;
     --question-box:#d5e1fa;
     --total-exam:#E8F7FF;
     --exam-attent:#FDEDE8;
@@ -105,7 +105,7 @@ body{
   }
 
   .suboption{
-    font-size:15px;
+    font-size:14px;
   }
   
   .my-container input {
